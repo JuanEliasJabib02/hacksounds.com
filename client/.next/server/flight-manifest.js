@@ -106,7 +106,11 @@ self.__RSC_MANIFEST={
     }
   },
   "__edge_ssr_module_mapping__": {},
-  "__entry_css_files__": {},
+  "__entry_css_files__": {
+    "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\app\\layout": [
+      "static/css/_app-client_app_globals_css.css"
+    ]
+  },
   "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\node_modules\\next\\dist\\client\\components\\app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
@@ -209,6 +213,15 @@ self.__RSC_MANIFEST={
         "app-client-internals:app-client-internals"
       ],
       "async": false
+    }
+  },
+  "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\app\\globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_globals_css.css"
+      ]
     }
   }
 }

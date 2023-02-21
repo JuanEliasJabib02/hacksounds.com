@@ -1,7 +1,10 @@
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className="bg-blue-500">
+      Welcome to our shop
+      NavBar
+    </div>
   )
 }
 
