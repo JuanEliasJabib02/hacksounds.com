@@ -1,18 +1,20 @@
-import Footer from '../components/Footer/Footer';
-import Header from '../components/Header/Header';
-import './globals.css'
+
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
+import "./globals.css";
 
 
-/* This components is the door to our app
- */
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
-        {/* Header */}
-        < Header />
+        <Header />
         {children}
-        < Footer />
+        <Footer />
       </body>
     </html>
   );

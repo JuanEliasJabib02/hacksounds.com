@@ -1,6 +1,6 @@
 self.__RSC_CSS_MANIFEST={
   "__entry_css_mods__": {
-    "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\app\\(landing)\\page": [
+    "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\app\\(home)\\page": [
       "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\app\\globals.css"
     ]
   },
