@@ -2,7 +2,7 @@ import NavBar from "./NavBar"
 
 const Header = () => {
   return (
-    <div>
+    <div className="w-full bg-black h-2/5">
       < NavBar />
     </div>
   )

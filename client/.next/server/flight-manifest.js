@@ -1,5 +1,31 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
+    "(app-client)/./components/Header/NavBar.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Header/NavBar.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Header/NavBar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Header/NavBar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -110,6 +136,32 @@ self.__RSC_MANIFEST={
     "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\app\\layout": [
       "static/css/_app-client_app_globals_css.css"
     ]
+  },
+  "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\components\\Header\\NavBar.tsx": {
+    "": {
+      "id": "(app-client)/./components/Header/NavBar.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Header/NavBar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Header/NavBar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
   },
   "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\node_modules\\next\\dist\\client\\components\\app-router.js": {
     "": {
