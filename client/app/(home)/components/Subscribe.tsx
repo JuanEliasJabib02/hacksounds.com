@@ -1,6 +1,6 @@
 const Subscribe = () => {
   return (
-    <div className="w-full ">
+    <div>
       Subscribe
     </div>
   )
