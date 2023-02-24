@@ -52,32 +52,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/(home)/page.tsx": {
-      "": {
-        "id": "(sc_client)/./app/(home)/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/(home)/page:app/(home)/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/(home)/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/(home)/page:app/(home)/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/(home)/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/(home)/page:app/(home)/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -237,32 +211,6 @@ self.__RSC_MANIFEST={
       "name": "Providers",
       "chunks": [
         "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\app\\(home)\\page.tsx": {
-    "": {
-      "id": "(app-client)/./app/(home)/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/(home)/page:app/(home)/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/(home)/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(home)/page:app/(home)/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/(home)/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/(home)/page:app/(home)/page"
       ],
       "async": false
     }
