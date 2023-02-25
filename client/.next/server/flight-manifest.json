@@ -52,6 +52,58 @@
         "async": false
       }
     },
+    "(app-client)/./app/(home)/components/assets/new-drumkit.png": {
+      "": {
+        "id": "(sc_client)/./app/(home)/components/assets/new-drumkit.png",
+        "name": "",
+        "chunks": [
+          "app/(home)/page:app/(home)/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/(home)/components/assets/new-drumkit.png",
+        "name": "*",
+        "chunks": [
+          "app/(home)/page:app/(home)/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/(home)/components/assets/new-drumkit.png",
+        "name": "default",
+        "chunks": [
+          "app/(home)/page:app/(home)/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/(home)/page:app/(home)/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/(home)/page:app/(home)/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/(home)/page:app/(home)/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -211,6 +263,58 @@
       "name": "Providers",
       "chunks": [
         "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\app\\(home)\\components\\assets\\new-drumkit.png": {
+    "": {
+      "id": "(app-client)/./app/(home)/components/assets/new-drumkit.png",
+      "name": "",
+      "chunks": [
+        "app/(home)/page:app/(home)/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/(home)/components/assets/new-drumkit.png",
+      "name": "*",
+      "chunks": [
+        "app/(home)/page:app/(home)/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/(home)/components/assets/new-drumkit.png",
+      "name": "default",
+      "chunks": [
+        "app/(home)/page:app/(home)/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\DATA - JUAN ELIAS\\Developer\\my projects\\devilkits.com\\client\\node_modules\\next\\dist\\client\\image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/(home)/page:app/(home)/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/(home)/page:app/(home)/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/(home)/page:app/(home)/page"
       ],
       "async": false
     }

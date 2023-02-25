@@ -12,14 +12,14 @@ const NavBar = () => {
   const [isMobile, setIsMobile] = useState(false)
 
   return (
-    <div className="bg-pallete_purple flex">
+    <div className="bg-pallete_purple flex h-[4rem] w-full justify-center">
       <div className="">
         <span className="">
           <p className="text-pallete_black">DEVILKITS.COM</p>
         </span>
       </div>
       <div>
-        <ul className="">
+        <ul className="flex">
           {
             categories?.map(category => (
               <li key={category.id} className="">{category.name}</li>
@@ -27,7 +27,7 @@ const NavBar = () => {
           }
         </ul>
       </div>
-      <div className="">
+      <div className="flex">
         <div className="">
           <span className="" ><HiOutlineShoppingCart color="white" /></span>
           <h4 className="">Cart</h4>
