@@ -1,17 +1,17 @@
 const categories = [
   {
     id: 1,
-    name: "drumkit",
+    name: "bundle",
 
   },
   {
     id: 2,
-    name: "midi kits",
+    name: "drumkit",
 
   },
   {
     id: 3,
-    name: "one shot kits"
+    name: "midis"
   },
   {
     id: 4,

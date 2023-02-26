@@ -1,6 +1,6 @@
 "use client"
 import { VscAccount } from "react-icons/vsc";
-import { HiOutlineShoppingCart } from "react-icons/hi";
+import { TiShoppingCart } from "react-icons/ti";
 /* Remplace this import with a categories from api  */
 import categories from "./dummyData";
 import { useState } from 'react';
@@ -12,14 +12,12 @@ const NavBar = () => {
   const [isMobile, setIsMobile] = useState(false)
 
   return (
-    <div className="bg-pallete_purple flex h-[4rem] w-full justify-center">
-      <div className="">
-        <span className="">
-          <p className="text-pallete_black">DEVILKITS.COM</p>
-        </span>
+    <div className="bg-pallete_yellow flex h-[4rem] w-full ">
+      <div className="bg-[red] w-[20%] flex justify-center items-center">
+        <p className="text-pallete_black">hackdrums.com</p>
       </div>
-      <div>
-        <ul className="flex">
+      <div className="bg-[purple] grow flex justify-center items-center">
+        <ul className="flex gap-7">
           {
             categories?.map(category => (
               <li key={category.id} className="">{category.name}</li>
@@ -27,13 +25,13 @@ const NavBar = () => {
           }
         </ul>
       </div>
-      <div className="flex">
+      <div className="flex bg-[yellow] w-[20%] items-center justify-evenly">
         <div className="">
-          <span className="" ><HiOutlineShoppingCart color="white" /></span>
+          <span className="" ><TiShoppingCart color="black" /></span>
           <h4 className="">Cart</h4>
         </div>
         <div className="">
-          <span ><VscAccount color="white" /></span>
+          <span ><VscAccount color="black" /></span>
           <h4>Account</h4>
         </div>
       </div>
